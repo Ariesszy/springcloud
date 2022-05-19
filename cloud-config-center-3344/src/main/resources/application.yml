@@ -8,10 +8,13 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:Ariesszy/springcloud-config.git #GitHub上面的git仓库名字
+          uri: https://github.com/Ariesszy/springcloud.git #GitHub上面的git仓库名字
           ####搜索目录
           search-paths:
             - springcloud-config
+          skip-ssl-validation: true
+          username: 469919621@qq.com
+          password: szy95003266123
       ####读取分支
       label: master
 
